@@ -1,4 +1,32 @@
-body{
-  backroud-color: #1B365D;
-  font-family: 'Plus Jakarta Sans', sans-serif;
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #222;
+  background-color: #fafafa;
+}
+
+header {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
