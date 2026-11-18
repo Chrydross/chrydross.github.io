@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Apply saved theme on page load
   if (currentTheme === "dark") {
     document.body.classList.add("dark-mode");
-    themeToggle.textContent = "☀️ Light Mode";
+    themeToggle.textContent = " Light Mode";
   }
 
   themeToggle.addEventListener("click", () => {
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Save choice to browser storage
     const isDark = document.body.classList.contains("dark-mode");
     localStorage.setItem("theme", isDark ? "dark" : "light");
-    themeToggle.textContent = isDark ? "☀️ Light Mode" : "🌙 Dark Mode";
+    themeToggle.textContent = isDark ? " Light Mode" : " Dark Mode";
   });
 
   // 2. SMOOTH SCROLLING FOR NAVIGATION LINKS
